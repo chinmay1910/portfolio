@@ -43,7 +43,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link href="/blog" legacyBehavior>
-                                <a className="block py-2 px-3 md:p-0 text-lg text-darkPurple rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Blog</a>
+                                <a className="block py-2 px-3 md:p-0 text-lg tWWWWext-darkPurple rounded md:hover:bg-transparent md:border-0 dark:text-amethyst">Blog</a>
                             </Link>
                         </li>
                         <li>

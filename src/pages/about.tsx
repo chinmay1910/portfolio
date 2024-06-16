@@ -18,19 +18,17 @@ const About: React.FC = () => {
                 About Me
               </h1>
               <p className="text-gray-700 text-xl">
-                Hi, I&apos;m Chinmay Aawade, a meticulous Software Developer
-                and recent graduate from Dr. Babasaheb Ambedkar Technological
-                University, where I proudly achieved a flawless GPA. Through my
-                journey, I've not only cultivated hands-on expertise as a
-                Developer but also contributed as an Undergraduate Teaching
-                Assistant, bridging academia with practical application. My
-                passion for technology is deeply ingrained in my diverse
-                portfolio of projects, spanning from advanced data analysis
-                tools to sustainable web applications. This journey reflects my
-                commitment to using technical proficiency for driving innovation
-                and fostering positive change. I strive to blend creativity and
-                technological acumen to tackle real-world challenges
-                effectively.
+                Hi, I&apos;m Chinmay Awade, a dedicated Software Developer and a
+                graduate from Dr. Babasaheb Ambedkar Technological University
+                with a perfect GPA. With hands-on experience as a Developer and
+                Undergraduate Teaching Assistant, I have honed my skills in both
+                academic research and educational support. My passion for
+                technology is reflected in my diverse projects, ranging from
+                data analysis tools to eco-friendly web applications. I am
+                committed to leveraging my technical expertise to drive
+                innovation and positive change in the world. Explore my journey
+                and projects to see how I blend creativity with technology to
+                solve real-world problems.
               </p>
             </div>
             <div className="mt-8 space-y-4">
@@ -39,25 +37,26 @@ const About: React.FC = () => {
                 I embarked on my career journey at{" "}
                 <u>Arizona State University</u>, where I have been immersed in
                 the world of <u>Computer Science</u>, achieving a stellar{" "}
-                <u>7.66 CGPA</u>. My professional experience began with roles such
-                as <u>Research Intern/Developer</u> at ISRO and the
-                Disaster Relief Team, Govt of Uttar Pradesh, where I
-                contributed to significant projects like the &quot;
+                <u>7.66 CGPA</u>. My professional experience began with roles
+                such as <u>Research Intern/Developer</u> at ISRO and the
+                Disaster Relief Team, Govt of Uttar Pradesh, where I contributed
+                to significant projects like the &quot;
                 <u>geoSensing Software</u>&quot; and developed proficiency in{" "}
-                <u>advanced laboratory techniques</u> 
+                <u>advanced laboratory techniques</u>
               </p>
               <p className="text-gray-700 text-xl">
                 Beyond academia, my passion for technology is showcased through
                 various innovative projects. I developed tools like{" "}
-                <u>Kathavachak</u> an ocr based audio playbooks <u>Civiccraft</u>,
-                a company website for one of the client. My technical
-                repertoire includes <u>Python, HTML/CSS, JavaScript, ReactJS</u>, and
-                frameworks like <u>Django and NodeJS</u>. My work has been
-                recognized at prestigious events such as <u>Spacetech ISRO</u> and{" "}
-                <u>Bhashini</u>. I am committed to staying abreast of the
-                latest industry trends, continually learning new skills, and
-                tackling challenging projects that drive both personal and
-                technological growth.
+                <u>Kathavachak</u> an ocr based audio playbooks{" "}
+                <u>Civiccraft</u>, a company website for one of the client. My
+                technical repertoire includes{" "}
+                <u>Python, HTML/CSS, JavaScript, ReactJS</u>, and frameworks
+                like <u>Django and NodeJS</u>. My work has been recognized at
+                prestigious events such as <u>Spacetech ISRO</u> and{" "}
+                <u>Bhashini</u>. I am committed to staying abreast of the latest
+                industry trends, continually learning new skills, and tackling
+                challenging projects that drive both personal and technological
+                growth.
               </p>
             </div>
             <div className="mt-8 space-y-4">
