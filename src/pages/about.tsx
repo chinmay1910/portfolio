@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import Navbar from '@/components/Navbar';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import Navbar from "@/components/Navbar";
 
 const About: React.FC = () => {
   return (
@@ -10,62 +10,111 @@ const About: React.FC = () => {
       <main className="flex-grow py-12 md:py-16 lg:py-20 px-4 md:px-6">
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div className="flex flex-col items-center md:items-start md:order-2">
-            <div className="rounded-lg overflow-hidden w-full md:w-[400px] md:h-[400px] md:ml-auto">
-              <Image 
-                src="/images/about-page-image.webp"
-                alt="Profile Picture"
-                width={400}
-                height={400}
-                className="object-cover"
-                layout="responsive"
-              />
-            </div>
+            <div className="rounded-lg overflow-hidden w-full md:w-[400px] md:h-[400px] md:ml-auto"></div>
           </div>
           <div>
             <div className="space-y-4">
-              <h1 className="text-3xl md:text-4xl font-bold text-amethyst">About Me</h1>
+              <h1 className="text-3xl md:text-4xl font-bold text-amethyst">
+                About Me
+              </h1>
               <p className="text-gray-700 text-xl">
-                Hi, I&apos;m Mrinaal Arora, a dedicated Computer Science student at Arizona State University with a perfect GPA. With hands-on experience as a Research Aide and Undergraduate Teaching Assistant, I have honed my skills in both academic research and educational support. My passion for technology is reflected in my diverse projects, ranging from data analysis tools to eco-friendly web applications. I am committed to leveraging my technical expertise to drive innovation and positive change in the world. Explore my journey and projects to see how I blend creativity with technology to solve real-world problems.
+                Hi, I&apos;m Chinmay Aawade, a meticulous Software Developer
+                and recent graduate from Dr. Babasaheb Ambedkar Technological
+                University, where I proudly achieved a flawless GPA. Through my
+                journey, I've not only cultivated hands-on expertise as a
+                Developer but also contributed as an Undergraduate Teaching
+                Assistant, bridging academia with practical application. My
+                passion for technology is deeply ingrained in my diverse
+                portfolio of projects, spanning from advanced data analysis
+                tools to sustainable web applications. This journey reflects my
+                commitment to using technical proficiency for driving innovation
+                and fostering positive change. I strive to blend creativity and
+                technological acumen to tackle real-world challenges
+                effectively.
               </p>
             </div>
             <div className="mt-8 space-y-4">
               <h2 className="text-3xl font-bold text-amethyst">Career</h2>
               <p className="text-gray-700 text-xl">
-                I embarked on my career journey at <u>Arizona State University</u>, where I have been immersed in the world of <u>Computer Science</u>, achieving a stellar <u>4.0 GPA</u>. My professional experience began with roles such as <u>Research Aide</u> at the School of Life Sciences and the Biodesign Center for Applied Structural Discovery, where I contributed to significant projects like the &quot;<u>Digitization TCN</u>&quot; and developed proficiency in <u>advanced laboratory techniques</u>. As an <u>Undergraduate Teaching Assistant</u> at the Fulton Schools of Engineering, I played a pivotal role in enhancing the educational experience for engineering students through collaborative learning activities.
+                I embarked on my career journey at{" "}
+                <u>Arizona State University</u>, where I have been immersed in
+                the world of <u>Computer Science</u>, achieving a stellar{" "}
+                <u>7.66 CGPA</u>. My professional experience began with roles such
+                as <u>Research Intern/Developer</u> at ISRO and the
+                Disaster Relief Team, Govt of Uttar Pradesh, where I
+                contributed to significant projects like the &quot;
+                <u>geoSensing Software</u>&quot; and developed proficiency in{" "}
+                <u>advanced laboratory techniques</u> 
               </p>
               <p className="text-gray-700 text-xl">
-                Beyond academia, my passion for technology is showcased through various innovative projects. I developed tools like <u>Spotistats</u> for analyzing Spotify data and <u>Ecocoin</u>, a Chrome extension promoting eco-friendly shopping. My technical repertoire includes <u>Python, HTML/CSS, JavaScript</u>, and frameworks like <u>Django and NodeJS</u>. My work has been recognized at prestigious events such as <u>YHacks</u> and <u>MakeHarvard</u>. I am committed to staying abreast of the latest industry trends, continually learning new skills, and tackling challenging projects that drive both personal and technological growth.
+                Beyond academia, my passion for technology is showcased through
+                various innovative projects. I developed tools like{" "}
+                <u>Kathavachak</u> an ocr based audio playbooks <u>Civiccraft</u>,
+                a company website for one of the client. My technical
+                repertoire includes <u>Python, HTML/CSS, JavaScript, ReactJS</u>, and
+                frameworks like <u>Django and NodeJS</u>. My work has been
+                recognized at prestigious events such as <u>Spacetech ISRO</u> and{" "}
+                <u>Bhashini</u>. I am committed to staying abreast of the
+                latest industry trends, continually learning new skills, and
+                tackling challenging projects that drive both personal and
+                technological growth.
               </p>
             </div>
             <div className="mt-8 space-y-4">
-              <h2 className="text-3xl font-bold text-amethyst">Let&apos;s Connect</h2>
+              <h2 className="text-3xl font-bold text-amethyst">
+                Let&apos;s Connect
+              </h2>
               <div className="flex items-center space-x-4">
                 <Link
-                  href="https://www.linkedin.com/in/mrinaalarora/"
+                  href="https://www.linkedin.com/in/chinmay1402/"
                   className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
                 >
-                  <Image src="/linkedin-white.svg" alt="LinkedIn" width={20} height={20} className="mr-2" />
+                  <Image
+                    src="/linkedin-white.svg"
+                    alt="LinkedIn"
+                    width={20}
+                    height={20}
+                    className="mr-2"
+                  />
                   LinkedIn
                 </Link>
                 <Link
-                  href="https://github.com/aroramrinaal"
+                  href="https://github.com/chinmay1909"
                   className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
                 >
-                  <Image src="/github-white.svg" alt="GitHub" width={20} height={20} className="mr-2" />
+                  <Image
+                    src="/github-white.svg"
+                    alt="GitHub"
+                    width={20}
+                    height={20}
+                    className="mr-2"
+                  />
                   GitHub
                 </Link>
                 <Link
-                  href="https://x.com/mrinaalarora25"
+                  href="https://x.com/chinmayawade"
                   className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
                 >
-                  <Image src="/twitter-x-white.svg" alt="Twitter" width={20} height={20} className="mr-2" />
+                  <Image
+                    src="/twitter-x-white.svg"
+                    alt="Twitter"
+                    width={20}
+                    height={20}
+                    className="mr-2"
+                  />
                   Twitter
                 </Link>
                 <Link
-                  href="https://www.instagram.com/mri.ar/"
+                  href="https://www.instagram.com/chinmay.ux/"
                   className="inline-flex items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
                 >
-                  <Image src="/instagram-white.svg" alt="Instagram" width={20} height={20} className="mr-2" />
+                  <Image
+                    src="/instagram-white.svg"
+                    alt="Instagram"
+                    width={20}
+                    height={20}
+                    className="mr-2"
+                  />
                   Instagram
                 </Link>
               </div>
